@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    gap: 12px;
+      
+}
+.HLogo,.maintext {
+    font-weight: bolder;
+}
+.maintext {
+    font-size: 48px;
+}
+.HLogo {
+    font-size: 24px;
+}
+.signup {
+    background-color: #3882F6;
+    border-radius: 16px;
+    color: white;
+    padding: 14px 24px;
+    
+    
+}
+.content1 {
+    display: flex;
+    
+    
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    gap: 450px;
+    
+}
+.left-text,img {
+    max-width: 500px ;
+    margin: 15px;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0%;
+    gap: 20px;
+}
