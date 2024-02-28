@@ -9,8 +9,7 @@ body {
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
     
 }
 
@@ -37,13 +36,17 @@ ul {
     border-radius: 16px;
     color: white;
     padding: 14px 24px;
-    
+    width: 150px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 18px;
     
 }
 .content1 {
     display: flex;
-    
-    
+    align-items: center;
+    justify-content: center;
+       
 }
 
 .header {
@@ -59,6 +62,5 @@ ul {
 .left-text{
     display: flex;
     flex-direction: column;
-    flex-shrink: 0%;
     gap: 20px;
 }
