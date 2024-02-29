@@ -35,11 +35,11 @@ ul {
     background-color: #3882F6;
     border-radius: 16px;
     color: white;
-    padding: 14px 24px;
-    width: 150px;
+    padding: 11px 24px;
+    width: 130px;
     margin-top: 30px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 17px;
     
 }
 .content1 {
@@ -55,7 +55,7 @@ ul {
     gap: 450px;
     
 }
-.left-text,img {
+.left-text,.imagetrac {
     max-width: 500px ;
     margin: 15px;
 }
@@ -64,3 +64,40 @@ ul {
     flex-direction: column;
     gap: 20px;
 }
+
+/*END OF FIRST HERO*/
+.container-2 {
+    margin: 40px;
+}
+.maintext-2 {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#img2 {
+    height: auto;
+    width: 250px;
+    border-radius: 15px;
+}
+.image-1,.image-2,.image-3,.image-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    align-items:center ;
+}
+.illus {
+    color: grey;
+    max-width: 250px;
+}
+/* END OF SECOND HERO*/
