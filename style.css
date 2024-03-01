@@ -64,6 +64,11 @@ ul {
     flex-direction: column;
     gap: 20px;
 }
+.lowertext {
+    font-style: italic;
+    font-size: larger;
+    
+}
 
 /*END OF FIRST HERO*/
 .container-2 {
@@ -144,15 +149,12 @@ ul {
     font-size: 18px;
     justify-content: center;
     gap: 100px;
-    align-items: flex-end
-
 }
 .maintext-4 {
     font-size: 28px;
     font-weight: 800;
     padding-left:130px ;
-    
-
+    padding-top: 20px;
 }
 .signup-button {
     background-color: #3882F6;
@@ -161,9 +163,8 @@ ul {
     color: white;
     padding: 10px;
     font-size: large;
-    border-color:  white;
-   
-
+    border-color: white;
+       
 }
 /* END OF FOURTH HERO*/
 .footer {
